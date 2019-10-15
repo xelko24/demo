@@ -1,12 +1,16 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "company": [
+    { "id": 1, "title": "MSI" },
+    { "id": 2, "title": "HP" },
+    { "id": 3, "title": "Dell" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "model": [
+    { "id": 1, "title": "MSI GL62M 7REX", "companyId": 1 },
+    { "id": 2, "title": "GT76-Titan-9SX", "companyId": 1 },
+    { "id": 3, "title": "HP ENVY X360", "companyId": 2 },
+    { "id": 4, "title": "HP PAVILION X360", "companyId": 2 },
+    { "id": 5, "title": "Inspiron-13-7000", "companyId": 3 },
+    { "id": 6, "title": "Inspiron-13-5391", "companyId": 3 },
   ],
   "profile": {
     "name": "typicode"
